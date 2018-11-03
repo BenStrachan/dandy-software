@@ -1,0 +1,54 @@
+<% content_for :seo_tags do %>
+  <title>Contact Us | Dandy Care Software Developers</title>
+  <meta name="description" content="A secure web application">
+<% end %>
+
+<div class="page-titles-img title-space-lg parallax-overlay bg-parallax" data-jarallax='{"speed": 0.4}' style='background-image: url(<%= asset_url('agedcarebackgroundmin.jpg') %>);background-position:top center;'>
+  <div class="container">
+    <div class="row">
+      <div class=" col-md-12">
+        <h1 class="text-uppercase">Contact Us
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pt90 pb50">
+  <div class="row">
+    <div class="col-md-6 mb40">
+
+      <h4 class="text-uppercase">Address</h4>
+      <p>
+        15 Dobson St, Ascot
+        <br>
+        Brisbane, QLD, 4007
+      </p>
+      <br>
+      <h4 class="text-uppercase">Email Us</h4>
+      <a href="mailto:info@ownerhealth.com.au?subject=Sales%20%26%20Upgrades&body=">
+        Sales and upgrades</a><br>
+      <a href="mailto:info@ownerhealth.com.au?subject=Technical%20Support&body=">
+        Technical support</a><br>
+      <a href="mailto:info@ownerhealth.com.au?subject=Accounts%20%26%20billing&body=">
+        Accounts and billing</a>
+      <br>
+      <br>
+      <h4 class="text-uppercase">Social</h4>
+      <div class="clearfix pt10">
+        <a href="#" class="social-icon si-border si-facebook">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#" class="social-icon si-border si-linkedin">
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6 mb40">
+      <h2>Contact Us</h2>
+      <%= render 'guests/contact/map' %>
+    </div>
+  </div>
+</div>

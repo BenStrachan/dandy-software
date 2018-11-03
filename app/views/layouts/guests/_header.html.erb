@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-transparent bg-faded nav-sticky">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="<%= root_path %>" style="top: -20px;">
+      <img class='logo logo-dark' src="<%= asset_path('logo-dark.png') %>" alt="">
+      <img class='logo logo-light hidden-md-down' src="<%= asset_path('logo-light.png') %>" alt="">
+    </a>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="<%= pricing_path %>">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= contact_path %>">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.dandy.care/users/sign_up">Start Free Trial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.dandy.care/users/sign_in">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
