@@ -1011,7 +1011,7 @@ Assan Header Style
 
 .navbar-toggler-right {
   position: absolute;
-  right: 5rem;
+  right: 0rem;
   top: 0; }
 
 .single-navbar .navbar-toggler-right {
